@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Levantar pedido</title>
+        <style type="text/css">
+            body {
+              color: rgb(219, 177, 108);
+              background-color: #06324b }
+        </style>
+    </head>
+    <body>
+        <h1>Hacer pedido</h1>
+
+        <form action="pedido.js">
+            <label for="Nombre">Ingresa tu nombre, Tacósmico:</label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+            <br>
+            <br>
+
+            <label for="mesa">Tu mesa (Está el número debajo):</label><br>
+            <input type="number" id="mesa" name="mesa" placeholder="4" min="1">
+        
+            <br>
+            <br>
+            <label> ¿Para aquí o para llevar? </label><br>
+        
+            <input type="radio" id="aqui" name="aquiollevar" value="Aqui" checked>
+            <label for="aqui"> Aquí </label><br>
+
+            <input type="radio" id="llevar" name="aquiollevar" value="Llevar" >
+            <label for="llevar"> Llevar </label><br>
+
+            <br>
+            <br>
+
+            <p>¿Tacos de qué?</p>
+            <input type="checkbox" id="mercurio" value="Mercurio">
+            <label for="mercurio">Mercurio</label>
+            <input type="number" id="mercurioCuantos" name="mercurioCuantos" placeholder="¿Cuantos?" min="1"><br> 
+
+            <input type="checkbox" id="venus" value="Venus">
+            <label for="venus">Venus</label>
+            <input type="number" id="venusCuantos" name="venusCuantos" placeholder="¿Cuantos?" min="1"><br> 
+
+            <p>¿Y para tomar?</p>
+            <select name="refresco" id="refresco">
+                <option value="Coca-Cola">Coca-Cola</option>
+                <option value="Fanta">Fanta</option>
+                <option value="Manzana">Manzana</option>
+                <option value="Sprite">Sprite</option>
+                <option value="Sangria">Sangria</option>
+                <option value="Mango">Mango</option>
+            </select>
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+
+            
+        </form>
+        <br>
+        
+
+        <a href="./menuTaqueria.html">
+            <input type="button" value="regresar">
+        </a>
+    </body>
+</html>

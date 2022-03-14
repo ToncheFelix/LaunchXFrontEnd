@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <title>Elementos compuestos</title>
+
+    <style type="text/css">
+        body {
+          color: purple;
+          background-color: #d3d3d2 }
+        #volume {
+            width: 250px;
+            height: 20px;}
+        .slider-wrapper input{
+            width: 150px;
+            height: 20px;
+            margin:0;
+            transform-origin: 75px 75px;
+            transform: rotate(-90deg);}
+
+    </style>
+
+</head>
+<body> 
+    
+
+    <!-- Etiqueta -->
+    <label for="Input1"> Ejemplo de Input básico</label><br>
+    <!-- Entradas / Inputs value opcional -->
+    <input type="text" id="Input1" name="Input1" value="Valor1"><br>
+
+    <!-- Tipos de input -->
+    <br>
+    <label for="correo1"> Input de correo </label><br>
+    <input type="email" id="correo1" name="correo1"><br>
+
+    <br>
+    <label for="numero1"> Input de numero </label><br>
+    <input type="number" id="numero1" name="numero1"><br>
+
+    <br>
+    <label for="tel"> Input de Telefono </label><br>
+    <input type="tel" id="tel" name="tel" maxlength="10"><br>
+
+    <br>
+    <label for="pass1"> Input de Password </label><br>
+    <input type="password" id="pass1" name="pass1" minlength="8"><br>
+
+
+
+
+
+    <br>
+    <label for="color1"> Input de Color </label><br>
+    <input type="color" id="pass1" name="color1"><br>
+
+    <br>
+    <label for="fecha1"> Input de Fecha </label><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+
+    <br>
+    <label for="fecha2"> Input de Fecha Time-Local </label><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+
+    <br>
+    <label for="fecha3"> Input de Fecha Semana </label><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+
+    <br>
+    <label for="fecha4"> Input de Fecha-Hora </label><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+
+    <br>
+    <label for="fecha5"> Input de Fecha-Mes </label><br>
+    <input type="month" id="fecha5" name="fecha5"><br>
+
+
+    <br>
+    <br>
+    <label for="archivo1"> Input de Seleccionar archivo </label><br>
+    <input type="file" id="archivo1" name="archivo1"><br>
+
+    <br>
+    <label for="archivo2"> Input de Seleccionar varios archivos </label><br>
+    <input type="file" id="archivo2" name="archivo2" multiple><br>
+
+
+    <br>
+    <label> Seleccionador RadioButton </label><br>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"> HTML </label><br>
+
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="html"> CSS </label><br>
+
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript"> JavaScript </label><br>
+
+
+    <br>
+    <label for="vol"> Volumen (entre 0 y 50 ) tipo 0 </label><br>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+
+    <br>
+    <label for="volume"> Volumen (entre 0 y 50 ) tipo 1 </label><br>
+    <input type="range" id="volume" name="vol" min="0" max="50"><br>
+
+    
+    <div class="slider-wrapper">
+        <label for="vol2"> Volumen (entre 0 y 100 ) tipo 2 </label><br>
+        <input type="range"  name="vol2" min="0" max="50"><br>
+    </div>
+    <br>
+
+    
+</body>
+
+
+</html>
